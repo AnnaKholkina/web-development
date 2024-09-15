@@ -1,0 +1,141 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #0c0c0c;
+    color: #f0f0f0; 
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px;
+    background-color: #19191a;
+    height: 80px; 
+}
+
+.header-logo {
+    width: 70px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+h1 {
+    margin: 0; 
+    color: #f0f0f0;
+}
+
+footer {
+    color: grey;
+    text-align: center;
+    background-color: #19191a;
+    padding: 20px;
+    margin-top: auto; 
+}
+
+.container {
+    max-width: 45%;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.main-content {
+    padding: 50px 0;
+    width: 80%;
+    margin: 0 auto;
+    flex: 1; /* позволяет основному контенту занимать оставшееся пространство */
+    font-family: "Rubik";
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.select-languages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: "Rubik", sans-serif;
+}
+
+.arrow-icon {
+    width: 40px;
+    height: auto;
+    margin: 0 10px; 
+}
+
+select {
+    width: 45%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #19191a;
+    color: #f0f0f0;
+    border: none;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+textarea {
+    width: 100%;
+    border: none;
+    background-color: #19191a;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+    resize: vertical;
+    position: relative;
+    box-sizing: border-box; /* включает padding и border в общую ширину и высоту */
+    padding: 10px; 
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.translation-form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background: #2F4BFF;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+button:hover {
+    background: #1e38df;
+}

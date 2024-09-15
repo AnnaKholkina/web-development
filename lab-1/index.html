@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>darkbyte</title>
+    <link rel="icon" href="img/cell-svgrepo-com.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/cell-svgrepo-com.svg" alt="Logo" class="header-logo">
+        <h1>darkbyte</h1>
+    </header>
+    <main class="container main-content">
+        <section class="select-languages">
+            <select id="source-language">
+                <option value='rus'>Русский</option>
+                <option value='eng'>Английский</option>
+                <option value='ger'>Немецкий</option>
+            </select>
+            <img src="img/arrow-right-svgrepo.svg" alt="Arrow" class="arrow-icon">
+            <select id="target-language">
+                <option value='eng'>Английский</option>
+                <option value='rus'>Русский</option>
+                <option value='ger'>Немецкий</option>
+            </select>
+        </section>
+        <form action="" method="post" class="translation-form">
+            <div class="source-language">
+                <textarea id="source-text" rows="10" name="text" placeholder="Введите текст..."></textarea>
+                <textarea id="target-text" rows="10" name="translatedText" placeholder="Перевод появится здесь..."></textarea>
+                <button type="submit">ПЕРЕВЕСТИ</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Darkbyte. All rights reserved, 2024.</p>
+    </footer>
+</body>
+</html>
